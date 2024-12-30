@@ -7,12 +7,14 @@ import Gallery from "./Components/FunctionComponent/Gallery";
 import NavBar from "./Components/FunctionComponent/NavBar";
 import "./assets/css/Home.css";
 import "./assets/css/NavBar.css";
+import Footer from "./Components/ClassComponent/Footer";
 import{BrowserRouter,Routes,Route} from 'react-router-dom';
 
 
 function App() {
   return (
     <div>
+      <Footer />
       <BrowserRouter>
       <NavBar/>
       <Routes>
