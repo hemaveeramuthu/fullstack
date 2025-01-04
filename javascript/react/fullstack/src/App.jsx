@@ -12,6 +12,8 @@ import UseMemo from "./Components/FunctionComponent/UseMemo";
 import "./assets/css/Home.css";
 import "./assets/css/NavBar.css";
 import Footer from "./Components/ClassComponent/Footer";
+import SignUp_Page from "./Components/ClassComponent/SignUp_Page";
+import Login_Page from "./Components/ClassComponent/Login_Page";
 import{BrowserRouter,Routes,Route} from 'react-router-dom';
 
 
@@ -31,6 +33,8 @@ function App() {
         <Route path="/useref" element={<UseRef/>}/>
         <Route path="/usecontext" element={<UseContext/>}/>
         <Route path="/usememo" element={<UseMemo/>}/>
+        <Route path="/signup" element={<SignUp_Page/>}/>
+        <Route path="/login" element={<Login_Page/>}/>
 
          </Routes>
         </BrowserRouter>
