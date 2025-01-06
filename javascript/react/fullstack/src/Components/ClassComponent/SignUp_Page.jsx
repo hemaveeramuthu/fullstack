@@ -13,7 +13,7 @@ const SignUpPage = () => {
     e.preventDefault(); // Prevent the default form submission behavior
 
     axios
-      .post("http://localhost:3001/signup", {
+      .post("https://fullstack-nmkd.onrender.com/signup", {
         firstname: firstname,
         lastname: lastname,
         email: email,
